@@ -1,0 +1,53 @@
+.formCotacao {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem 1.4rem;
+}
+
+.formCotacao > form {
+    display: flex;
+    flex-direction: column;    
+}
+
+.formCotacao > form > label {
+    margin-top: 0;
+    margin-bottom: -1.2rem;
+ }
+
+.formInput {
+    height: 4rem;
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    font-size: 1.8rem;
+}
+
+.formCotacaoTitle {
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #0091ff;
+}
+
+
+.buttonSubmit {
+    color: #fff;
+    background:  #0091ff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 2rem;
+
+    height: 4rem;
+
+    transition: 0.2s color, 0,2s background;
+}  
+
+.buttonSubmit:hover {
+    color: #faf;
+    background:  #063f6b;
+}
